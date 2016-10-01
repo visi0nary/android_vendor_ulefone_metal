@@ -505,7 +505,7 @@ PRODUCT_COPY_FILES += \
  vendor/ulefone/metal/proprietary/lib64/libfilterpack_facedetect.so:system/lib64/libfilterpack_facedetect.so \
  vendor/ulefone/metal/proprietary/lib64/libfile_op.so:system/lib64/libfile_op.so \
  vendor/ulefone/metal/proprietary/lib64/libFonts.so:system/lib64/libFonts.so \
- vendor/ulefone/metal/proprietary/lib64/libFPEtsjni.so:system/lib64/libFPEtsjni.so \
+ vendor/ulefone/metal/proprietary/lib64/libFPEtsJni.so.so:system/lib64/libFPEtsJni.so \
  vendor/ulefone/metal/proprietary/lib64/libfs_mgr.so:system/lib64/libfs_mgr.so \
  vendor/ulefone/metal/proprietary/lib64/libgas.so:system/lib64/libgas.so \
  vendor/ulefone/metal/proprietary/lib64/libged.so:system/lib64/libged.so \
