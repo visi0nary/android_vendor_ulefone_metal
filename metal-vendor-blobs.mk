@@ -547,7 +547,7 @@ PRODUCT_COPY_FILES += \
  vendor/ulefone/metal/proprietary/lib64/libmemorydumper.so:system/lib64/libmemorydumper.so \
  vendor/ulefone/metal/proprietary/lib64/libmhalImageCodec.so:system/lib64/libmhalImageCodec.so \
  vendor/ulefone/metal/proprietary/lib64/libminiui.so:system/lib64/libminiui.so \
- vendor/ulefone/metal/proprietary/lib64/libMiraVison_jni.so:system/lib64/libMiraVison_jni.so \
+ vendor/ulefone/metal/proprietary/lib64/libMiraVision_jni.so:system/lib64/libMiraVision_jni.so \
  vendor/ulefone/metal/proprietary/lib64/libmmprofile.so:system/lib64/libmmprofile.so \
  vendor/ulefone/metal/proprietary/lib64/libmmprofile_jni.so:system/lib64/libmmprofile_jni.so \
  vendor/ulefone/metal/proprietary/lib64/libmmsdkservice.so:system/lib64/libmmsdkservice.so \
@@ -586,7 +586,7 @@ PRODUCT_COPY_FILES += \
  vendor/ulefone/metal/proprietary/lib64/libstagefrighthw.so:system/lib64/libstagefrighthw.so \
  vendor/ulefone/metal/proprietary/lib64/libterservice.so:system/lib64/libterservice.so \
  vendor/ulefone/metal/proprietary/lib64/libtimestretch.so:system/lib64/libtimestretch.so \
- vendor/ulefone/metal/proprietary/lib64/libtnet-2.1.20.1.so:system/lib64/libtnet-2.1.20.1.so \
+ vendor/ulefone/metal/proprietary/lib64/libtnet-2.1.20.1-agoo.so:system/lib64/libtnet-2.1.20.1-agoo.so \
  vendor/ulefone/metal/proprietary/lib64/libtouchfilter.so:system/lib64/libtouchfilter.so \
  vendor/ulefone/metal/proprietary/lib64/libudf.so:system/lib64/libudf.so \
  vendor/ulefone/metal/proprietary/lib64/libui.so:system/lib64/libui.so \
