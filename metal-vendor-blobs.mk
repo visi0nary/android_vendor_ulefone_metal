@@ -150,7 +150,7 @@ PRODUCT_COPY_FILES += \
  vendor/ulefone/metal/proprietary/lib/lib3a.so:system/lib/lib3a.so \
  vendor/ulefone/metal/proprietary/lib/liba3m.so:system/lib/liba3m.so \
  vendor/ulefone/metal/proprietary/lib/lib3a_sample.so:system/lib/lib3a_sample.so \
- vendor/ulefone/metal/proprietary/lib/libaal.so:system/lib/liball.so \
+ vendor/ulefone/metal/proprietary/lib/libaal.so:system/lib/libaal.so \
  vendor/ulefone/metal/proprietary/lib/libacdk.so:system/lib/libacdk.so \
  vendor/ulefone/metal/proprietary/lib/libaed.so:system/lib/libaed.so \
  vendor/ulefone/metal/proprietary/lib/libamrvt.so:system/lib/libamrvt.so \
@@ -381,13 +381,13 @@ PRODUCT_COPY_FILES += \
  vendor/ulefone/metal/proprietary/lib/libvcodecdrv.so:system/lib/libvcodecdrv.so \
  vendor/ulefone/metal/proprietary/lib/libvie.so:system/lib/libvie.so \
  vendor/ulefone/metal/proprietary/lib/libvie_jni.so:system/lib/libvie_jni.so \
- vendor/ulefone/metal/proprietary/lib/libvoicerecognition.so:system/libvoicerecognition.so \
- vendor/ulefone/metal/proprietary/lib/libvoicerecognition_jni.so:system/libvoicerecognition_jni.so \
- vendor/ulefone/metal/proprietary/lib/libvt_avsync.so:system/libvt_avsync.so \
- vendor/ulefone/metal/proprietary/lib/libvt_custom.so:system/libvt_custom.so \
- vendor/ulefone/metal/proprietary/lib/libvtmal.so:system/libvtmal.so \
- vendor/ulefone/metal/proprietary/lib/libvt_socketbind.so:system/libvt_socketbind.so \
- vendor/ulefone/metal/proprietary/lib/volte_imsm.so:system/volte_imsm.so \
+ vendor/ulefone/metal/proprietary/lib/libvoicerecognition.so:system/lib/libvoicerecognition.so \
+ vendor/ulefone/metal/proprietary/lib/libvoicerecognition_jni.so:system/lib/libvoicerecognition_jni.so \
+ vendor/ulefone/metal/proprietary/lib/libvt_avsync.so:system/lib/libvt_avsync.so \
+ vendor/ulefone/metal/proprietary/lib/libvt_custom.so:system/lib/libvt_custom.so \
+ vendor/ulefone/metal/proprietary/lib/libvtmal.so:system/lib/libvtmal.so \
+ vendor/ulefone/metal/proprietary/lib/libvt_socketbind.so:system/lib/libvt_socketbind.so \
+ vendor/ulefone/metal/proprietary/lib/volte_imsm.so:system/lib/volte_imsm.so \
  vendor/ulefone/metal/proprietary/lib/libvp8dec_sa.ca7.so:system/lib/libvp8dec_sa.ca7.so \
  vendor/ulefone/metal/proprietary/lib/libvp8enc_sa.ca7.so:system/lib/libvp8enc_sa.ca7.so \
  vendor/ulefone/metal/proprietary/lib/libvp9dec_sa.ca7.so:system/lib/libvp9dec_sa.ca7.so \
