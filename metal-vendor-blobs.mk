@@ -396,7 +396,7 @@ PRODUCT_COPY_FILES += \
  vendor/ulefone/metal/proprietary/lib64/egl/libGLES_mali.so:system/lib64/egl/libGLES_mali.so \
  vendor/ulefone/metal/proprietary/lib64/hw/audio.primary.mt6753.so:system/lib64/hw/audio.primary.mt6753.so \
  vendor/ulefone/metal/proprietary/lib64/hw/camera.mt6753.so:system/lib64/hw/camera.mt6753.so \
- vendor/ulefone/metal/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
+ vendor/ulefone/metal/proprietary/lib64/hw/fingerprint.mt6735.so:system/lib64/hw/fingerprint.mt6735.so \
  vendor/ulefone/metal/proprietary/lib64/hw/gps.mt6753.so:system/lib64/hw/gps.mt6753.so \
  vendor/ulefone/metal/proprietary/lib64/hw/gralloc.mt6753.so:system/lib64/hw/gralloc.mt6753.so \
  vendor/ulefone/metal/proprietary/lib64/hw/hwcomposer.mt6753.so:system/lib64/hw/hwcomposer.mt6753.so \
