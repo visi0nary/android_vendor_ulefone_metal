@@ -23,15 +23,18 @@ PRODUCT_COPY_FILES += \
  vendor/ulefone/metal/proprietary/bin/aee:system/bin/aee \
  vendor/ulefone/metal/proprietary/bin/aee_archive:system/bin/aee_archive \
  vendor/ulefone/metal/proprietary/bin/aee_core_forwarder:system/bin/aee_core_forwarder \
+ vendor/ulefone/metal/proprietary/bin/aee_dumpstate:system/bin/aee_dumpstate \
  vendor/ulefone/metal/proprietary/bin/akmd09911:system/bin/akmd09911 \
  vendor/ulefone/metal/proprietary/bin/akmd8963:system/bin/akmd8963 \
  vendor/ulefone/metal/proprietary/bin/akmd8975:system/bin/akmd8975 \
  vendor/ulefone/metal/proprietary/bin/ami304d:system/bin/ami304d \
+ vendor/ulefone/metal/proprietary/bin/applysig:system/bin/applysign \
  vendor/ulefone/metal/proprietary/bin/atci_service:system/bin/atci_service \
  vendor/ulefone/metal/proprietary/bin/atcid:system/bin/atcid \
  vendor/ulefone/metal/proprietary/bin/audiocmdservice_atci:system/bin/audiocmdservice_atci \
  vendor/ulefone/metal/proprietary/bin/autobt:system/bin/autobt \
  vendor/ulefone/metal/proprietary/bin/autokd:system/bin/autokd \
+ vendor/ulefone/metal/proprietary/bin/badblocks:system/bin/badblocks \
  vendor/ulefone/metal/proprietary/bin/batterywarning:system/bin/batterywarning \
  vendor/ulefone/metal/proprietary/bin/bmm050d:system/bin/bmm050d \
  vendor/ulefone/metal/proprietary/bin/boot_logo_updater:system/bin/boot_logo_updater \
@@ -42,42 +45,68 @@ PRODUCT_COPY_FILES += \
  vendor/ulefone/metal/proprietary/bin/dhcp6s:system/bin/dhcp6s \
  vendor/ulefone/metal/proprietary/bin/dm_agent_binder:system/bin/dm_agent_binder \
  vendor/ulefone/metal/proprietary/bin/dmlog:system/bin/dmlog \
+ vendor/ulefone/metal/proprietary/bin/downloader:system/bin/downloader \
  vendor/ulefone/metal/proprietary/bin/em_svr:system/bin/em_svr \
  vendor/ulefone/metal/proprietary/bin/emdlogger1:system/bin/emdlogger1 \
+ vendor/ulefone/metal/proprietary/bin/epdg_wod:system/bin/epdg_wod \
  vendor/ulefone/metal/proprietary/bin/etsd:system/bin/etsd \
+ vendor/ulefone/metal/proprietary/bin/factory:system/bin/factory \
+ vendor/ulefone/metal/proprietary/bin/fotabinder:system/bin/fotabinder \
  vendor/ulefone/metal/proprietary/bin/fsck_msdos_mtk:system/bin/fsck_msdos_mtk \
  vendor/ulefone/metal/proprietary/bin/fuelgauged:system/bin/fuelgauged \
  vendor/ulefone/metal/proprietary/bin/gas_srv:system/bin/gas_srv \
  vendor/ulefone/metal/proprietary/bin/ged_srv:system/bin/ged_srv \
  vendor/ulefone/metal/proprietary/bin/geomagneticd:system/bin/geomagneticd \
+ vendor/ulefone/metal/proprietary/bin/grep:system/bin/grep \
  vendor/ulefone/metal/proprietary/bin/guiext-server:system/bin/guiext-server \
+ vendor/ulefone/metal/proprietary/bin/gzip_static:system/bin/gzip_static\
  vendor/ulefone/metal/proprietary/bin/kpoc_charger:system/bin/kpoc_charger \
+ vendor/ulefone/metal/proprietary/bin/lcdc_screen_cap:system/bin/lcdc_screen_cap \
  vendor/ulefone/metal/proprietary/bin/lsm303md:system/bin/lsm303md \
  vendor/ulefone/metal/proprietary/bin/magd:system/bin/magd \
  vendor/ulefone/metal/proprietary/bin/matv:system/bin/matv \
  vendor/ulefone/metal/proprietary/bin/mc6420d:system/bin/mc6420d \
+ vendor/ulefone/metal/proprietary/bin/make_f2fs:system/bin/make_f2fs \
+ vendor/ulefone/metal/proprietary/bin/MATest:system/bin/MATest \
  vendor/ulefone/metal/proprietary/bin/md_ctrl:system/bin/md_ctrl \
  vendor/ulefone/metal/proprietary/bin/mdlogger:system/bin/mdlogger \
+ vendor/ulefone/metal/proprietary/bin/memorydumper:system/bin/memorydumper \
  vendor/ulefone/metal/proprietary/bin/memsicd:system/bin/memsicd \
  vendor/ulefone/metal/proprietary/bin/memsicd3416x:system/bin/memsicd3416x \
+ vendor/ulefone/metal/proprietary/bin/meta_tst:system/bin/meta_tst \
+ vendor/ulefone/metal/proprietary/bin/mmp:system/bin/mmp \
  vendor/ulefone/metal/proprietary/bin/mobile_log_d:system/bin/mobile_log_d \
  vendor/ulefone/metal/proprietary/bin/msensord:system/bin/msensord \
  vendor/ulefone/metal/proprietary/bin/mtk_agpsd:system/bin/mtk_agpsd \
  vendor/ulefone/metal/proprietary/bin/muxreport:system/bin/muxreport \
+ vendor/ulefone/metal/proprietary/bin/mxg2320d:system/bin/mxg2320d \
  vendor/ulefone/metal/proprietary/bin/netdiag:system/bin/netdiag \
  vendor/ulefone/metal/proprietary/bin/nvram_agent_binder:system/bin/nvram_agent_binder \
  vendor/ulefone/metal/proprietary/bin/nvram_daemon:system/bin/nvram_daemon \
  vendor/ulefone/metal/proprietary/bin/orientationd:system/bin/orientationd \
+ vendor/ulefone/metal/proprietary/bin/perf_native_test:system/bin/perf_native_test \
  vendor/ulefone/metal/proprietary/bin/ppl_agent:system/bin/ppl_agent \
  vendor/ulefone/metal/proprietary/bin/pppd_dt:system/bin/pppd_dt \
  vendor/ulefone/metal/proprietary/bin/pq:system/bin/pq \
  vendor/ulefone/metal/proprietary/bin/program_binary_service:system/bin/program_binary_service \
  vendor/ulefone/metal/proprietary/bin/radvd:system/bin/radvd \
+ vendor/ulefone/metal/proprietary/bin/resize_ext4:system/bin/resize_ext4 \
+ vendor/ulefone/metal/proprietary/bin/rs2spir:system/bin/rs2spir \
+ vendor/ulefone/metal/proprietary/bin/rtt:system/bin/rtt \
  vendor/ulefone/metal/proprietary/bin/s62xd:system/bin/s62xd \
+ vendor/ulefone/metal/proprietary/bin/sink:system/bin/sink \
+ vendor/ulefone/metal/proprietary/bin/slpd:system/bin/slpd \
+ vendor/ulefone/metal/proprietary/bin/smart_audio.sh:system/bin/smart_audio.sh \
  vendor/ulefone/metal/proprietary/bin/sn:system/bin/sn \
+ vendor/ulefone/metal/proprietary/bin/source:system/bin/source \
+ vendor/ulefone/metal/proprietary/bin/spir2cl:system/bin/spir2cl \
  vendor/ulefone/metal/proprietary/bin/spm_loader:system/bin/spm_loader \
  vendor/ulefone/metal/proprietary/bin/stp_dump3:system/bin/stp_dump3 \
  vendor/ulefone/metal/proprietary/bin/terservice:system/bin/terservice \
+ vendor/ulefone/metal/proprietary/bin/tertestclient:system/bin/tertestclient \
+ vendor/ulefone/metal/proprietary/bin/tiny_mkswap:system/bin/tiny_mkswap \
+ vendor/ulefone/metal/proprietary/bin/tiny_swapoff:system/bin/tiny_swapoff \
+ vendor/ulefone/metal/proprietary/bin/tiny_swapon:system/bin/tiny_swapon \
  vendor/ulefone/metal/proprietary/bin/vtservice:system/bin/vtservice \
  vendor/ulefone/metal/proprietary/bin/wifi2agps:system/bin/wifi2agps \
  vendor/ulefone/metal/proprietary/bin/wmt_loader:system/bin/wmt_loader \
@@ -119,33 +148,14 @@ PRODUCT_COPY_FILES += \
  vendor/ulefone/metal/proprietary/lib/hw/mmsdk.mt6753.so:system/lib/hw/mmsdk.mt6753.so \
  vendor/ulefone/metal/proprietary/lib/hw/sensors.mt6753.so:system/lib/hw/sensors.mt6753.so \
  vendor/ulefone/metal/proprietary/lib/lib3a.so:system/lib/lib3a.so \
- vendor/ulefone/metal/proprietary/lib/lib3a_sample.so:system/lib/lib3a_sample.so \
- vendor/ulefone/metal/proprietary/lib/libBnMtkCodec.so:system/lib/libBnMtkCodec.so \
- vendor/ulefone/metal/proprietary/lib/libDR.so:system/lib/libDR.so \
- vendor/ulefone/metal/proprietary/lib/libJniAtvService.so:system/lib/libJniAtvService.so \
- vendor/ulefone/metal/proprietary/lib/libJpgDecPipe.so:system/lib/libJpgDecPipe.so \
- vendor/ulefone/metal/proprietary/lib/libJpgEncPipe.so:system/lib/libJpgEncPipe.so \
- vendor/ulefone/metal/proprietary/lib/libMtkOmxAdpcmDec.so:system/lib/libMtkOmxAdpcmDec.so \
- vendor/ulefone/metal/proprietary/lib/libMtkOmxAdpcmEnc.so:system/lib/libMtkOmxAdpcmEnc.so \
- vendor/ulefone/metal/proprietary/lib/libMtkOmxAlacDec.so:system/lib/libMtkOmxAlacDec.so \
- vendor/ulefone/metal/proprietary/lib/libMtkOmxApeDec.so:system/lib/libMtkOmxApeDec.so \
- vendor/ulefone/metal/proprietary/lib/libMtkOmxCore.so:system/lib/libMtkOmxCore.so \
- vendor/ulefone/metal/proprietary/lib/libMtkOmxFlacDec.so:system/lib/libMtkOmxFlacDec.so \
- vendor/ulefone/metal/proprietary/lib/libMtkOmxG711Dec.so:system/lib/libMtkOmxG711Dec.so \
- vendor/ulefone/metal/proprietary/lib/libMtkOmxGsmDec.so:system/lib/libMtkOmxGsmDec.so \
- vendor/ulefone/metal/proprietary/lib/libMtkOmxMp3Dec.so:system/lib/libMtkOmxMp3Dec.so \
- vendor/ulefone/metal/proprietary/lib/libMtkOmxRawDec.so:system/lib/libMtkOmxRawDec.so \
- vendor/ulefone/metal/proprietary/lib/libMtkOmxVdecEx.so:system/lib/libMtkOmxVdecEx.so \
- vendor/ulefone/metal/proprietary/lib/libMtkOmxVenc.so:system/lib/libMtkOmxVenc.so \
- vendor/ulefone/metal/proprietary/lib/libMtkOmxVorbisEnc.so:system/lib/libMtkOmxVorbisEnc.so \
- vendor/ulefone/metal/proprietary/lib/libMtkVideoTranscoder.so:system/lib/libMtkVideoTranscoder.so \
- vendor/ulefone/metal/proprietary/lib/libPQDCjni.so:system/lib/libPQDCjni.so \
- vendor/ulefone/metal/proprietary/lib/libPQjni.so:system/lib/libPQjni.so \
- vendor/ulefone/metal/proprietary/lib/libSonyIMX230PdafLibrary.so:system/lib/libSonyIMX230PdafLibrary.so \
- vendor/ulefone/metal/proprietary/lib/libSwJpgCodec.so:system/lib/libSwJpgCodec.so \
  vendor/ulefone/metal/proprietary/lib/liba3m.so:system/lib/liba3m.so \
+ vendor/ulefone/metal/proprietary/lib/lib3a_sample.so:system/lib/lib3a_sample.so \
+ vendor/ulefone/metal/proprietary/lib/libaal.so:system/lib/liball.so \
  vendor/ulefone/metal/proprietary/lib/libacdk.so:system/lib/libacdk.so \
  vendor/ulefone/metal/proprietary/lib/libaed.so:system/lib/libaed.so \
+ vendor/ulefone/metal/proprietary/lib/libamrvt.so:system/lib/libamrvt.so \
+ vendor/ulefone/metal/proprietary/lib/libamr_wrap.so:system/lib/libamr_wrap.so \
+ vendor/ulefone/metal/proprietary/lib/libawb_wrap.so:system/lib/libawb_wrap.so \
  vendor/ulefone/metal/proprietary/lib/libatciserv_jni.so:system/lib/libatciserv_jni.so \
  vendor/ulefone/metal/proprietary/lib/libatvctrlservice.so:system/lib/libatvctrlservice.so \
  vendor/ulefone/metal/proprietary/lib/libaudio_param_parser.so:system/lib/libaudio_param_parser.so \
@@ -155,6 +165,7 @@ PRODUCT_COPY_FILES += \
  vendor/ulefone/metal/proprietary/lib/libaudiodcrflt.so:system/lib/libaudiodcrflt.so \
  vendor/ulefone/metal/proprietary/lib/libaudiomtkdcremoval.so:system/lib/libaudiomtkdcremoval.so \
  vendor/ulefone/metal/proprietary/lib/libaudiosetting.so:system/lib/libaudiosetting.so \
+ vendor/ulefone/metal/proprietary/lib/libbluetooth_hw_test.so:system/lib/libbluetooth_hw_test.so \
  vendor/ulefone/metal/proprietary/lib/libbessound_hd_mtk.so:system/lib/libbessound_hd_mtk.so \
  vendor/ulefone/metal/proprietary/lib/libbessurround_mtk.so:system/lib/libbessurround_mtk.so \
  vendor/ulefone/metal/proprietary/lib/libblisrc.so:system/lib/libblisrc.so \
@@ -165,6 +176,8 @@ PRODUCT_COPY_FILES += \
  vendor/ulefone/metal/proprietary/lib/libbluetoothem_mtk.so:system/lib/libbluetoothem_mtk.so \
  vendor/ulefone/metal/proprietary/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
  vendor/ulefone/metal/proprietary/lib/libbwc.so:system/lib/libbwc.so \
+ vendor/ulefone/metal/proprietary/lib/libBnMtkCodec.so:system/lib/libBnMtkCodec.so \
+ vendor/ulefone/metal/proprietary/lib/libcam.jni.lomohaljni.so:system/lib/libcam.jni.lomohaljni.so \
  vendor/ulefone/metal/proprietary/lib/libcam.camadapter.so:system/lib/libcam.camadapter.so \
  vendor/ulefone/metal/proprietary/lib/libcam.camnode.so:system/lib/libcam.camnode.so \
  vendor/ulefone/metal/proprietary/lib/libcam.camshot.so:system/lib/libcam.camshot.so \
@@ -198,6 +211,8 @@ PRODUCT_COPY_FILES += \
  vendor/ulefone/metal/proprietary/lib/libcamdrv.so:system/lib/libcamdrv.so \
  vendor/ulefone/metal/proprietary/lib/libcameracustom.so:system/lib/libcameracustom.so \
  vendor/ulefone/metal/proprietary/lib/libccci_util.so:system/lib/libccci_util.so \
+ vendor/ulefone/metal/proprietary/lib/libcocklogic.so:system/lib/libcocklogic.so \
+ vendor/ulefone/metal/proprietary/lib/libcomutils.so:system/lib/libcomutils.so \
  vendor/ulefone/metal/proprietary/lib/libcurl.so:system/lib/libcurl.so \
  vendor/ulefone/metal/proprietary/lib/libcustom_jni.so:system/lib/libcustom_jni.so \
  vendor/ulefone/metal/proprietary/lib/libcustom_nvram.so:system/lib/libcustom_nvram.so \
@@ -209,6 +224,7 @@ PRODUCT_COPY_FILES += \
  vendor/ulefone/metal/proprietary/lib/libdpframework.so:system/lib/libdpframework.so \
  vendor/ulefone/metal/proprietary/lib/libdrmmtkutil.so:system/lib/libdrmmtkutil.so \
  vendor/ulefone/metal/proprietary/lib/libdrmmtkwhitelist.so:system/lib/libdrmmtkwhitelist.so \
+ vendor/ulefone/metal/proprietary/lib/libDR.so:system/lib/libDR.so \
  vendor/ulefone/metal/proprietary/lib/libeffect.facebeautypp.so:system/lib/libeffect.facebeautypp.so \
  vendor/ulefone/metal/proprietary/lib/libeffecthal.JPG.so:system/lib/libeffecthal.JPG.so \
  vendor/ulefone/metal/proprietary/lib/libeffecthal.base.so:system/lib/libeffecthal.base.so \
@@ -220,8 +236,20 @@ PRODUCT_COPY_FILES += \
  vendor/ulefone/metal/proprietary/lib/libem_support_jni.so:system/lib/libem_support_jni.so \
  vendor/ulefone/metal/proprietary/lib/libem_usb_jni.so:system/lib/libem_usb_jni.so \
  vendor/ulefone/metal/proprietary/lib/libem_wifi_jni.so:system/lib/libem_wifi_jni.so \
+ vendor/ulefone/metal/proprietary/lib/libext2_blkid.so:system/lib/libext2_blkid.so \
+ vendor/ulefone/metal/proprietary/lib/libext2_com_err.so:system/lib/libext2_com_err.so \
+ vendor/ulefone/metal/proprietary/lib/libext2_e2p.so:system/lib/libext2_e2p.so \
+ vendor/ulefone/metal/proprietary/lib/libext2fs.so:system/lib/libext2fs.so \
+ vendor/ulefone/metal/proprietary/lib/libext2_profile.so:system/lib/libext2_profile.so \
+ vendor/ulefone/metal/proprietary/lib/libext2_uuid.so:system/lib/libext2_uuid.so \
  vendor/ulefone/metal/proprietary/lib/libfeatureio.so:system/lib/libfeatureio.so \
  vendor/ulefone/metal/proprietary/lib/libfeatureiodrv.so:system/lib/libfeatureiodrv.so \
+ vendor/ulefone/metal/proprietary/lib/libfeatureio.cfb.so:system/lib/libfeatureio.cfb.so \
+ vendor/ulefone/metal/proprietary/lib/libfeatureio.featurefactory.so:system/lib/libfeatureio.featurefactory.so \
+ vendor/ulefone/metal/proprietary/lib/libfeatureio.jpg.so:system/lib/libfeatureio.jpg.so \
+ vendor/ulefone/metal/proprietary/lib/libfmjni.so:system/lib/libfmjni.so \
+ vendor/ulefone/metal/proprietary/lib/libFonts.so:system/lib/libFonts.so \
+ vendor/ulefone/metal/proprietary/lib/libfs_mgr.so:system/lib/libfs_mgr.so \
  vendor/ulefone/metal/proprietary/lib/libfgauge.so:system/lib/libfgauge.so \
  vendor/ulefone/metal/proprietary/lib/libfile_op.so:system/lib/libfile_op.so \
  vendor/ulefone/metal/proprietary/lib/libfusion.so:system/lib/libfusion.so \
@@ -229,26 +257,59 @@ PRODUCT_COPY_FILES += \
  vendor/ulefone/metal/proprietary/lib/libged.so:system/lib/libged.so \
  vendor/ulefone/metal/proprietary/lib/libgem.so:system/lib/libgem.so \
  vendor/ulefone/metal/proprietary/lib/libgpu_aux.so:system/lib/libgpu_aux.so \
+ vendor/ulefone/metal/proprietary/lib/libgui_ext.so:system/lib/libgui_ext.so \
  vendor/ulefone/metal/proprietary/lib/libgralloc_extra.so:system/lib/libgralloc_extra.so \
  vendor/ulefone/metal/proprietary/lib/libhdrproc.so:system/lib/libhdrproc.so \
  vendor/ulefone/metal/proprietary/lib/libhwm.so:system/lib/libhwm.so \
+ vendor/ulefone/metal/proprietary/lib/libh264enc_sa.ca7.so:system/lib/libh264enc_sa.ca7.so \
+ vendor/ulefone/metal/proprietary/lib/libh264enc_sb.ca7.so:system/lib/libh264enc_sb.ca7.so \
+ vendor/ulefone/metal/proprietary/lib/libHEVdec_sa.ca7.android.so:system/lib/libHEVdec_sa.ca7.android.so \
  vendor/ulefone/metal/proprietary/lib/libimageio.so:system/lib/libimageio.so \
  vendor/ulefone/metal/proprietary/lib/libimageio_plat_drv.so:system/lib/libimageio_plat_drv.so \
+ vendor/ulefone/metal/proprietary/lib/libimsma.so:system/lib/libimsma.so \
+ vendor/ulefone/metal/proprietary/lib/libimsma_rtp.so:system/lib/libimsma_rtp.so \
+ vendor/ulefone/metal/proprietary/lib/libimsma_socketwrapper.so:system/lib/libimsma_socketwrapper.so \
+ vendor/ulefone/metal/proprietary/lib/libimsma_socketwrapper.so:system/lib/libimsma_socketwrapper.so \
  vendor/ulefone/metal/proprietary/lib/libion.so:system/lib/libion.so \
  vendor/ulefone/metal/proprietary/lib/libion_mtk.so:system/lib/libion_mtk.so \
  vendor/ulefone/metal/proprietary/lib/libja3m.so:system/lib/libja3m.so \
  vendor/ulefone/metal/proprietary/lib/libjni_pq.so:system/lib/libjni_pq.so \
+ vendor/ulefone/metal/proprietary/lib/libjhead.so:system/lib/libjhead.so \
+ vendor/ulefone/metal/proprietary/lib/libjhead_jni.so:system/lib/libjhead_jni.so \
+ vendor/ulefone/metal/proprietary/lib/libJniAtvService.so:system/lib/libJniAtvService.so \
+ vendor/ulefone/metal/proprietary/lib/libjni_eglfence.so:system/lib/libjni_eglfence.so \
+ vendor/ulefone/metal/proprietary/lib/libjni_filtershow_filters.so:system/lib/libjni_filtershow_filters.so \
+ vendor/ulefone/metal/proprietary/lib/libjni_jpegstream.so:system/lib/libjni_jpegstream.so \
+ vendor/ulefone/metal/proprietary/lib/libjni_lomoeffect.so:system/lib/libjni_lomoeffect.so \
+ vendor/ulefone/metal/proprietary/lib/libjni_slow_motion.so:system/lib/libjni_slow_motion.so \
+ vendor/ulefone/metal/proprietary/lib/libJpgDecPipe.so:system/lib/libJpgDecPipe.so \
+ vendor/ulefone/metal/proprietary/lib/libJpgEncPipe.so:system/lib/libJpgEncPipe.so \
+ vendor/ulefone/metal/proprietary/lib/libjtranscode.so:system/lib/libjtranscode.so \
+ vendor/ulefone/metal/proprietary/lib/liblic_divx.so:system/lib/liblic_divx.so \
+ vendor/ulefone/metal/proprietary/lib/liblic_s263.so:system/lib/liblic_s263.so \
  vendor/ulefone/metal/proprietary/lib/libm.so:system/lib/libm.so \
  vendor/ulefone/metal/proprietary/lib/libm4u.so:system/lib/libm4u.so \
  vendor/ulefone/metal/proprietary/lib/libmatv_cust.so:system/lib/libmatv_cust.so \
+ vendor/ulefone/metal/proprietary/lib/libmal_datamngr.so:system/lib/libmal_datamngr.so \
+ vendor/ulefone/metal/proprietary/lib/libmal_epdga.so:system/lib/libmal_epdga.so \
+ vendor/ulefone/metal/proprietary/lib/libmal_imsmngr.so:system/lib/libmal_imsmngr.so \
+ vendor/ulefone/metal/proprietary/lib/libmal_mdmngr.so:system/lib/libmal_mdmngr.so \
+ vendor/ulefone/metal/proprietary/lib/libmal_nwmngr.so:system/lib/libmal_nwmngr.so \
+ vendor/ulefone/metal/proprietary/lib/libmal_rds.so:system/lib/libmal_rds.so \
+ vendor/ulefone/metal/proprietary/lib/libmal_rilproxy.so:system/lib/libmal_rilproxy.so \
+ vendor/ulefone/metal/proprietary/lib/libmal_simmngr.so:system/lib/libmal_simmngr.so \
  vendor/ulefone/metal/proprietary/lib/libmdloggerrecycle.so:system/lib/libmdloggerrecycle.so \
  vendor/ulefone/metal/proprietary/lib/libmediatek_exceptionlog.so:system/lib/libmediatek_exceptionlog.so \
  vendor/ulefone/metal/proprietary/lib/libmemoryDumpEncoder.so:system/lib/libmemoryDumpEncoder.so \
  vendor/ulefone/metal/proprietary/lib/libmemorydumper.so:system/lib/libmemorydumper.so \
  vendor/ulefone/metal/proprietary/lib/libmhalImageCodec.so:system/lib/libmhalImageCodec.so \
+ vendor/ulefone/metal/proprietary/lib/libminiui.so:system/lib/libminiui.so \
+ vendor/ulefone/metal/proprietary/lib/libMiraVision_jni.so:system/lib/libMiraVision_jni.so \
  vendor/ulefone/metal/proprietary/lib/libmmprofile.so:system/lib/libmmprofile.so \
  vendor/ulefone/metal/proprietary/lib/libmmprofile_jni.so:system/lib/libmmprofile_jni.so \
  vendor/ulefone/metal/proprietary/lib/libmmsdkservice.so:system/lib/libmmsdkservice.so \
+ vendor/ulefone/metal/proprietary/lib/libmmsdkservice.feature.so:system/lib/libmmsdkservice.feature.so \
+ vendor/ulefone/metal/proprietary/lib/libmp4enc_xa.ca7.so:system/lib/libmp4enc_xa.ca7.so \
  vendor/ulefone/metal/proprietary/lib/libmnl.so:system/lib/libmnl.so \
  vendor/ulefone/metal/proprietary/lib/libmp4enc_sa.ca7.so:system/lib/libmp4enc_sa.ca7.so \
  vendor/ulefone/metal/proprietary/lib/libmpe.driver.so:system/lib/libmpe.driver.so \
@@ -262,6 +323,28 @@ PRODUCT_COPY_FILES += \
  vendor/ulefone/metal/proprietary/lib/libmtkjpeg.so:system/lib/libmtkjpeg.so \
  vendor/ulefone/metal/proprietary/lib/libmtklimiter.so:system/lib/libmtklimiter.so \
  vendor/ulefone/metal/proprietary/lib/libmtkshifter.so:system/lib/libmtkshifter.so \
+ vendor/ulefone/metal/proprietary/lib/libMTKAudioTimeStretch.so:system/lib/libMTKAudioTimeStretch.so \
+ vendor/ulefone/metal/proprietary/lib/libMtkOmxAdpcmDec.so:system/lib/libMtkOmxAdpcmDec.so \
+ vendor/ulefone/metal/proprietary/lib/libMtkOmxAdpcmEnc.so:system/lib/libMtkOmxAdpcmEnc.so \
+ vendor/ulefone/metal/proprietary/lib/libMtkOmxAlacDec.so:system/lib/libMtkOmxAlacDec.so \
+ vendor/ulefone/metal/proprietary/lib/libMtkOmxApeDec.so:system/lib/libMtkOmxApeDec.so \
+ vendor/ulefone/metal/proprietary/lib/libMtkOmxCore.so:system/lib/libMtkOmxCore.so \
+ vendor/ulefone/metal/proprietary/lib/libMtkOmxFlacDec.so:system/lib/libMtkOmxFlacDec.so \
+ vendor/ulefone/metal/proprietary/lib/libMtkOmxG711Dec.so:system/lib/libMtkOmxG711Dec.so \
+ vendor/ulefone/metal/proprietary/lib/libMtkOmxGsmDec.so:system/lib/libMtkOmxGsmDec.so \
+ vendor/ulefone/metal/proprietary/lib/libMtkOmxMp3Dec.so:system/lib/libMtkOmxMp3Dec.so \
+ vendor/ulefone/metal/proprietary/lib/libMtkOmxRawDec.so:system/lib/libMtkOmxRawDec.so \
+ vendor/ulefone/metal/proprietary/lib/libMtkOmxVdecEx.so:system/lib/libMtkOmxVdecEx.so \
+ vendor/ulefone/metal/proprietary/lib/libMtkOmxVenc.so:system/lib/libMtkOmxVenc.so \
+ vendor/ulefone/metal/proprietary/lib/libMtkOmxVorbisEnc.so:system/lib/libMtkOmxVorbisEnc.so \
+ vendor/ulefone/metal/proprietary/lib/libmtksqlite3_android.so:system/lib/libmtksqlite3_android.so \
+ vendor/ulefone/metal/proprietary/lib/libmtksqlite3_custom.so:system/lib/libmtksqlite3_custom.so \
+ vendor/ulefone/metal/proprietary/lib/libMtkVideoSpeedEffect.so:system/lib/libMtkVideoSpeedEffect.so \
+ vendor/ulefone/metal/proprietary/lib/libMtkVideoTranscoder.so:system/lib/libMtkVideoTranscoder.so \
+ vendor/ulefone/metal/proprietary/lib/libmtk_vt_service.so:system/lib/libmtk_vt_service.so \
+ vendor/ulefone/metal/proprietary/lib/libmtk_vt_swip.so:system/lib/libmtk_vt_swip.so \
+ vendor/ulefone/metal/proprietary/lib/libmtk_vt_utils.so:system/lib/libmtk_vt_utils.so \
+ vendor/ulefone/metal/proprietary/lib/libmtk_vt_wrapper.so:system/lib/libmtk_vt_wrapper.so \
  vendor/ulefone/metal/proprietary/lib/libn3d3a.so:system/lib/libn3d3a.so \
  vendor/ulefone/metal/proprietary/lib/libnativecheck-jni.so:system/lib/libnativecheck-jni.so \
  vendor/ulefone/metal/proprietary/lib/libnetutils.so:system/lib/libnetutils.so \
@@ -270,26 +353,46 @@ PRODUCT_COPY_FILES += \
  vendor/ulefone/metal/proprietary/lib/libnvram_platform.so:system/lib/libnvram_platform.so \
  vendor/ulefone/metal/proprietary/lib/libnvram_sec.so:system/lib/libnvram_sec.so \
  vendor/ulefone/metal/proprietary/lib/libnvramagentclient.so:system/lib/libnvramagentclient.so \
+ vendor/ulefone/metal/proprietary/lib/libOpenCLIcd.so:system/lib/libOpenCLIcd.so \
  vendor/ulefone/metal/proprietary/lib/libperfservice.so:system/lib/libperfservice.so \
  vendor/ulefone/metal/proprietary/lib/libperfservicenative.so:system/lib/libperfservicenative.so \
  vendor/ulefone/metal/proprietary/lib/libpq_cust.so:system/lib/libpq_cust.so \
  vendor/ulefone/metal/proprietary/lib/libpq_prot.so:system/lib/libpq_prot.so \
  vendor/ulefone/metal/proprietary/lib/libpqservice.so:system/lib/libpqservice.so \
+ vendor/ulefone/metal/proprietary/lib/libPQDCjni.so:system/lib/libPQDCjni.so \
+ vendor/ulefone/metal/proprietary/lib/libPQjni.so:system/lib/libPQjni.so \
+ vendor/ulefone/metal/proprietary/lib/libRSDriver.so:system/lib/libRSDriver.so \
+ vendor/ulefone/metal/proprietary/lib/libsink.so:system/lib/libsink.so \
  vendor/ulefone/metal/proprietary/lib/libshowlogo.so:system/lib/libshowlogo.so \
+ vendor/ulefone/metal/proprietary/lib/libSonyIMX230PdafLibrary.so:system/lib/libSonyIMX230PdafLibrary.so \
+ vendor/ulefone/metal/proprietary/lib/libsource.so:system/lib/libsource.so \
  vendor/ulefone/metal/proprietary/lib/libspeech_enh_lib.so:system/lib/libspeech_enh_lib.so \
  vendor/ulefone/metal/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
+ vendor/ulefone/metal/proprietary/lib/libSwJpgCodec.so:system/lib/libSwJpgCodec.so \
  vendor/ulefone/metal/proprietary/lib/libthermalalgo.so:system/lib/libthermalalgo.so \
  vendor/ulefone/metal/proprietary/lib/libtimestretch.so:system/lib/libtimestretch.so \
  vendor/ulefone/metal/proprietary/lib/libtouchfilter.so:system/lib/libtouchfilter.so \
- vendor/ulefone/metal/proprietary/lib/libudf.so:system/lib/libudf.so \
- vendor/ulefone/metal/proprietary/lib/libui.so:system/lib/libui.so \
+ vendor/ulefone/metal/proprietary/lib/libtnet-2.1.20.1-agoo.so:system/lib/libtnet-2.1.20.1-agoo.so \
+ vendor/ulefone/metal/proprietary/lib/libui_ext.so:system/lib/libui_ext.so \
+ vendor/ulefone/metal/proprietary/lib/libvcodec_cap.so:system/lib/libvcodec_cap.so \
  vendor/ulefone/metal/proprietary/lib/libvc1dec_sa.ca7.so:system/lib/libvc1dec_sa.ca7.so \
  vendor/ulefone/metal/proprietary/lib/libvcodec_oal.so:system/lib/libvcodec_oal.so \
  vendor/ulefone/metal/proprietary/lib/libvcodec_utility.so:system/lib/libvcodec_utility.so \
  vendor/ulefone/metal/proprietary/lib/libvcodecdrv.so:system/lib/libvcodecdrv.so \
+ vendor/ulefone/metal/proprietary/lib/libvie.so:system/lib/libvie.so \
+ vendor/ulefone/metal/proprietary/lib/libvie_jni.so:system/lib/libvie_jni.so \
+ vendor/ulefone/metal/proprietary/lib/libvoicerecognition.so:system/libvoicerecognition.so \
+ vendor/ulefone/metal/proprietary/lib/libvoicerecognition_jni.so:system/libvoicerecognition_jni.so \
+ vendor/ulefone/metal/proprietary/lib/libvt_avsync.so:system/libvt_avsync.so \
+ vendor/ulefone/metal/proprietary/lib/libvt_custom.so:system/libvt_custom.so \
+ vendor/ulefone/metal/proprietary/lib/libvtmal.so:system/libvtmal.so \
+ vendor/ulefone/metal/proprietary/lib/libvt_socketbind.so:system/libvt_socketbind.so \
+ vendor/ulefone/metal/proprietary/lib/volt_imsm.so:system/volt_imsm.so \
  vendor/ulefone/metal/proprietary/lib/libvp8dec_sa.ca7.so:system/lib/libvp8dec_sa.ca7.so \
  vendor/ulefone/metal/proprietary/lib/libvp8enc_sa.ca7.so:system/lib/libvp8enc_sa.ca7.so \
  vendor/ulefone/metal/proprietary/lib/libvp9dec_sa.ca7.so:system/lib/libvp9dec_sa.ca7.so \
+ vendor/ulefone/metal/proprietary/lib/libudf.so:system/lib/libudf.so \
+ vendor/ulefone/metal/proprietary/lib/libui.so:system/lib/libui.so \
  vendor/ulefone/metal/proprietary/lib64/egl/libGLES_mali.so:system/lib64/egl/libGLES_mali.so \
  vendor/ulefone/metal/proprietary/lib64/hw/audio.primary.mt6753.so:system/lib64/hw/audio.primary.mt6753.so \
  vendor/ulefone/metal/proprietary/lib64/hw/camera.mt6753.so:system/lib64/hw/camera.mt6753.so \
@@ -303,17 +406,8 @@ PRODUCT_COPY_FILES += \
  vendor/ulefone/metal/proprietary/lib64/hw/sensors.mt6753.so:system/lib64/hw/sensors.mt6753.so \
  vendor/ulefone/metal/proprietary/lib64/lib3a.so:system/lib64/lib3a.so \
  vendor/ulefone/metal/proprietary/lib64/lib3a_sample.so:system/lib64/lib3a_sample.so \
- vendor/ulefone/metal/proprietary/lib64/libBnMtkCodec.so:system/lib64/libBnMtkCodec.so \
- vendor/ulefone/metal/proprietary/lib64/libEtsdc.so:system/lib64/libEtsdc.so \
- vendor/ulefone/metal/proprietary/lib64/libFpEts.so:system/lib64/libFpEts.so \
- vendor/ulefone/metal/proprietary/lib64/libJpgDecPipe.so:system/lib64/libJpgDecPipe.so \
- vendor/ulefone/metal/proprietary/lib64/libJpgEncPipe.so:system/lib64/libJpgEncPipe.so \
- vendor/ulefone/metal/proprietary/lib64/libMtkOmxCore.so:system/lib64/libMtkOmxCore.so \
- vendor/ulefone/metal/proprietary/lib64/libMtkVideoTranscoder.so:system/lib64/libMtkVideoTranscoder.so \
- vendor/ulefone/metal/proprietary/lib64/libPQDCjni.so:system/lib64/libPQDCjni.so \
- vendor/ulefone/metal/proprietary/lib64/libPQjni.so:system/lib64/libPQjni.so \
- vendor/ulefone/metal/proprietary/lib64/libSonyIMX230PdafLibrary.so:system/lib64/libSonyIMX230PdafLibrary.so \
- vendor/ulefone/metal/proprietary/lib64/libSwJpgCodec.so:system/lib64/libSwJpgCodec.so \
+ vendor/ulefone/metal/proprietary/lib64/lib3a_sample.so:system/lib64/lib3a_sample.so \
+ vendor/ulefone/metal/proprietary/lib64/libaal.so:system/lib64/liball.so \
  vendor/ulefone/metal/proprietary/lib64/liba3m.so:system/lib64/liba3m.so \
  vendor/ulefone/metal/proprietary/lib64/libacdk.so:system/lib64/libacdk.so \
  vendor/ulefone/metal/proprietary/lib64/libaed.so:system/lib64/libaed.so \
@@ -325,6 +419,7 @@ PRODUCT_COPY_FILES += \
  vendor/ulefone/metal/proprietary/lib64/libaudiocustparam.so:system/lib64/libaudiocustparam.so \
  vendor/ulefone/metal/proprietary/lib64/libaudiodcrflt.so:system/lib64/libaudiodcrflt.so \
  vendor/ulefone/metal/proprietary/lib64/libaudiosetting.so:system/lib64/libaudiosetting.so \
+ vendor/ulefone/metal/proprietary/lib64/libbluetooth_hw_test.so:system/lib64/libbluetooth_hw_test.so \
  vendor/ulefone/metal/proprietary/lib64/libbessound_hd_mtk.so:system/lib64/libbessound_hd_mtk.so \
  vendor/ulefone/metal/proprietary/lib64/libblisrc.so:system/lib64/libblisrc.so \
  vendor/ulefone/metal/proprietary/lib64/libblisrc32.so:system/lib64/libblisrc32.so \
@@ -333,6 +428,17 @@ PRODUCT_COPY_FILES += \
  vendor/ulefone/metal/proprietary/lib64/libbluetooth_relayer.so:system/lib64/libbluetooth_relayer.so \
  vendor/ulefone/metal/proprietary/lib64/libbluetoothem_mtk.so:system/lib64/libbluetoothem_mtk.so \
  vendor/ulefone/metal/proprietary/lib64/libbwc.so:system/lib64/libbwc.so \
+ vendor/ulefone/metal/proprietary/lib64/libBnMtkCodec.so:system/lib64/libBnMtkCodec.so \
+ vendor/ulefone/metal/proprietary/lib64/libEtsdc.so:system/lib64/libEtsdc.so \
+ vendor/ulefone/metal/proprietary/lib64/libFpEts.so:system/lib64/libFpEts.so \
+ vendor/ulefone/metal/proprietary/lib64/libJpgDecPipe.so:system/lib64/libJpgDecPipe.so \
+ vendor/ulefone/metal/proprietary/lib64/libJpgEncPipe.so:system/lib64/libJpgEncPipe.so \
+ vendor/ulefone/metal/proprietary/lib64/libMtkOmxCore.so:system/lib64/libMtkOmxCore.so \
+ vendor/ulefone/metal/proprietary/lib64/libMtkVideoTranscoder.so:system/lib64/libMtkVideoTranscoder.so \
+ vendor/ulefone/metal/proprietary/lib64/libPQDCjni.so:system/lib64/libPQDCjni.so \
+ vendor/ulefone/metal/proprietary/lib64/libPQjni.so:system/lib64/libPQjni.so \
+ vendor/ulefone/metal/proprietary/lib64/libSonyIMX230PdafLibrary.so:system/lib64/libSonyIMX230PdafLibrary.so \
+ vendor/ulefone/metal/proprietary/lib64/libSwJpgCodec.so:system/lib64/libSwJpgCodec.so \
  vendor/ulefone/metal/proprietary/lib64/libcam.camadapter.so:system/lib64/libcam.camadapter.so \
  vendor/ulefone/metal/proprietary/lib64/libcam.camnode.so:system/lib64/libcam.camnode.so \
  vendor/ulefone/metal/proprietary/lib64/libcam.camshot.so:system/lib64/libcam.camshot.so \
@@ -344,6 +450,7 @@ PRODUCT_COPY_FILES += \
  vendor/ulefone/metal/proprietary/lib64/libcam.hal3a.v3.dng.so:system/lib64/libcam.hal3a.v3.dng.so \
  vendor/ulefone/metal/proprietary/lib64/libcam.hal3a.v3.so:system/lib64/libcam.hal3a.v3.so \
  vendor/ulefone/metal/proprietary/lib64/libcam.halsensor.so:system/lib64/libcam.halsensor.so \
+ vendor/ulefone/metal/proprietary/lib64/libcam.jni.lomohaljni.so:system/lib64/libcam.jni.lomohaljni.so \
  vendor/ulefone/metal/proprietary/lib64/libcam.iopipe.so:system/lib64/libcam.iopipe.so \
  vendor/ulefone/metal/proprietary/lib64/libcam.metadata.so:system/lib64/libcam.metadata.so \
  vendor/ulefone/metal/proprietary/lib64/libcam.metadataprovider.so:system/lib64/libcam.metadataprovider.so \
@@ -366,6 +473,8 @@ PRODUCT_COPY_FILES += \
  vendor/ulefone/metal/proprietary/lib64/libcamdrv.so:system/lib64/libcamdrv.so \
  vendor/ulefone/metal/proprietary/lib64/libcameracustom.so:system/lib64/libcameracustom.so \
  vendor/ulefone/metal/proprietary/lib64/libccci_util.so:system/lib64/libccci_util.so \
+ vendor/ulefone/metal/proprietary/lib64/libcocklogic.so:system/lib64/libcocklogic.so \
+ vendor/ulefone/metal/proprietary/lib64/libcomutils.so:system/lib64/libcomutils.so \
  vendor/ulefone/metal/proprietary/lib64/libcurl.so:system/lib64/libcurl.so \
  vendor/ulefone/metal/proprietary/lib64/libcustom_jni.so:system/lib64/libcustom_jni.so \
  vendor/ulefone/metal/proprietary/lib64/libcustom_nvram.so:system/lib64/libcustom_nvram.so \
@@ -388,40 +497,74 @@ PRODUCT_COPY_FILES += \
  vendor/ulefone/metal/proprietary/lib64/libem_support_jni.so:system/lib64/libem_support_jni.so \
  vendor/ulefone/metal/proprietary/lib64/libem_usb_jni.so:system/lib64/libem_usb_jni.so \
  vendor/ulefone/metal/proprietary/lib64/libem_wifi_jni.so:system/lib64/libem_wifi_jni.so \
+ vendor/ulefone/metal/proprietary/lib64/libfeatureio.cfb.so:system/lib64/libfeatureio.cfb.so \
+ vendor/ulefone/metal/proprietary/lib64/libfeatureio.featurefactory.so:system/lib64/libfeatureio.featurefactory.so \
+ vendor/ulefone/metal/proprietary/lib64/libfeatureio.jpg.so:system/lib64/libfeatureio.jpg.so \
  vendor/ulefone/metal/proprietary/lib64/libfeatureio.so:system/lib64/libfeatureio.so \
  vendor/ulefone/metal/proprietary/lib64/libfeatureiodrv.so:system/lib64/libfeatureiodrv.so \
+ vendor/ulefone/metal/proprietary/lib64/libfilterpack_facedetect.so:system/lib64/libfilterpack_facedetect.so \
  vendor/ulefone/metal/proprietary/lib64/libfile_op.so:system/lib64/libfile_op.so \
+ vendor/ulefone/metal/proprietary/lib64/libFonts.so:system/lib64/libFonts.so \
+ vendor/ulefone/metal/proprietary/lib64/libFPEtsjni.so:system/lib64/libFPEtsjni.so \
+ vendor/ulefone/metal/proprietary/lib64/libfs_mgr.so:system/lib64/libfs_mgr.so \
  vendor/ulefone/metal/proprietary/lib64/libgas.so:system/lib64/libgas.so \
  vendor/ulefone/metal/proprietary/lib64/libged.so:system/lib64/libged.so \
  vendor/ulefone/metal/proprietary/lib64/libgem.so:system/lib64/libgem.so \
  vendor/ulefone/metal/proprietary/lib64/libgpu_aux.so:system/lib64/libgpu_aux.so \
  vendor/ulefone/metal/proprietary/lib64/libgralloc_extra.so:system/lib64/libgralloc_extra.so \
+ vendor/ulefone/metal/proprietary/lib64/libgui_ext.so:system/lib64/libgui_ext.so \
+ vendor/ulefone/metal/proprietary/lib64/libh264enc_sa.ca7.so:system/lib64/libh264enc_sa.ca7.so \
  vendor/ulefone/metal/proprietary/lib64/libhdrproc.so:system/lib64/libhdrproc.so \
  vendor/ulefone/metal/proprietary/lib64/libhwm.so:system/lib64/libhwm.so \
  vendor/ulefone/metal/proprietary/lib64/libimageio.so:system/lib64/libimageio.so \
  vendor/ulefone/metal/proprietary/lib64/libimageio_plat_drv.so:system/lib64/libimageio_plat_drv.so \
+ vendor/ulefone/metal/proprietary/lib64/libimsma.so:system/lib64/libimsma.so \
+ vendor/ulefone/metal/proprietary/lib64/libimsma_rtp.so:system/lib64/libimsma_rtp.so \
+ vendor/ulefone/metal/proprietary/lib64/libimsma_socketwrapper.so:system/lib64/libimsma_socketwrapper.so \
  vendor/ulefone/metal/proprietary/lib64/libion.so:system/lib64/libion.so \
  vendor/ulefone/metal/proprietary/lib64/libion_mtk.so:system/lib64/libion_mtk.so \
  vendor/ulefone/metal/proprietary/lib64/libja3m.so:system/lib64/libja3m.so \
  vendor/ulefone/metal/proprietary/lib64/libjni_pq.so:system/lib64/libjni_pq.so \
+ vendor/ulefone/metal/proprietary/lib64/libjhead.so:system/lib64/libjhead.so \
+ vendor/ulefone/metal/proprietary/lib64/libjhead_jni.so:system/lib64/libjhead_jni.so \
+ vendor/ulefone/metal/proprietary/lib64/libjni_lomoeffect.so:system/lib64/libjni_lomoeffect.so \
+ vendor/ulefone/metal/proprietary/lib64/libjni_slow_motion.so:system/lib64/libjni_slow_motion.so \
+ vendor/ulefone/metal/proprietary/lib64/libjtranscode.so:system/lib64/libjtranscode.so \
+ vendor/ulefone/metal/proprietary/lib64/libjtranscode.so:system/lib64/libjtranscode.so \
  vendor/ulefone/metal/proprietary/lib64/libm4u.so:system/lib64/libm4u.so \
+ vendor/ulefone/metal/proprietary/lib64/libmal_datamngr.so:system/lib64/libmal_datamngr.so \
+ vendor/ulefone/metal/proprietary/lib64/libmal_epdga.so:system/lib64/libmal_epdga.so \
+ vendor/ulefone/metal/proprietary/lib64/libmal_imsmngr.so:system/lib64/libmal_imsmngr.so \
+ vendor/ulefone/metal/proprietary/lib64/libmal_mdmngr.so:system/lib64/libmal_mdmngr.so \
+ vendor/ulefone/metal/proprietary/lib64/libmal_nwmngr.so:system/lib64/libmal_nwmngr.so \
+ vendor/ulefone/metal/proprietary/lib64/libmal_rds.so:system/lib64/libmal_rds.so \
+ vendor/ulefone/metal/proprietary/lib64/libmal_rilproxy.so:system/lib64/libmal_rilproxy.so \
+ vendor/ulefone/metal/proprietary/lib64/libmal_simmngr.so:system/lib64/libmal_simmngr.so \
  vendor/ulefone/metal/proprietary/lib64/libmatv_cust.so:system/lib64/libmatv_cust.so \
  vendor/ulefone/metal/proprietary/lib64/libmdloggerrecycle.so:system/lib64/libmdloggerrecycle.so \
  vendor/ulefone/metal/proprietary/lib64/libmediatek_exceptionlog.so:system/lib64/libmediatek_exceptionlog.so \
  vendor/ulefone/metal/proprietary/lib64/libmemoryDumpEncoder.so:system/lib64/libmemoryDumpEncoder.so \
  vendor/ulefone/metal/proprietary/lib64/libmemorydumper.so:system/lib64/libmemorydumper.so \
  vendor/ulefone/metal/proprietary/lib64/libmhalImageCodec.so:system/lib64/libmhalImageCodec.so \
+ vendor/ulefone/metal/proprietary/lib64/libminiui.so:system/lib64/libminiui.so \
+ vendor/ulefone/metal/proprietary/lib64/libMiraVison_jni.so:system/lib64/libMiraVison_jni.so \
  vendor/ulefone/metal/proprietary/lib64/libmmprofile.so:system/lib64/libmmprofile.so \
  vendor/ulefone/metal/proprietary/lib64/libmmprofile_jni.so:system/lib64/libmmprofile_jni.so \
  vendor/ulefone/metal/proprietary/lib64/libmmsdkservice.so:system/lib64/libmmsdkservice.so \
+ vendor/ulefone/metal/proprietary/lib64/libmmsdkservice.feature.so:system/lib64/libmmsdkservice.feature.so \
  vendor/ulefone/metal/proprietary/lib64/libmrdump.so:system/lib64/libmrdump.so \
  vendor/ulefone/metal/proprietary/lib64/libmsbc_mtk.so:system/lib64/libmsbc_mtk.so \
+ vendor/ulefone/metal/proprietary/lib64/libMTKAudioTimeStretch.so:system/lib64/libMTKAudioTimeStretch.so \
  vendor/ulefone/metal/proprietary/lib64/libmtk_drvb.so:system/lib64/libmtk_drvb.so \
  vendor/ulefone/metal/proprietary/lib64/libmtk_mmutils.so:system/lib64/libmtk_mmutils.so \
  vendor/ulefone/metal/proprietary/lib64/libmtkcamera_client.so:system/lib64/libmtkcamera_client.so \
  vendor/ulefone/metal/proprietary/lib64/libmtkjpeg.so:system/lib64/libmtkjpeg.so \
  vendor/ulefone/metal/proprietary/lib64/libmtklimiter.so:system/lib64/libmtklimiter.so \
  vendor/ulefone/metal/proprietary/lib64/libmtkshifter.so:system/lib64/libmtkshifter.so \
+ vendor/ulefone/metal/proprietary/lib64/libmtksqlite3_android.so:system/lib64/libmtksqlite3_android.so \
+ vendor/ulefone/metal/proprietary/lib64/libmtksqlite3_custom.so:system/lib64/libmtksqlite3_custom.so \
+ vendor/ulefone/metal/proprietary/lib64/libMtkVideoSpeedEffect.so:system/lib64/libMtkVideoSpeedEffect.so \
+ vendor/ulefone/metal/proprietary/lib64/libmtk_vt_wrapper.so:system/lib64/libmtk_vt_wrapper.so \
  vendor/ulefone/metal/proprietary/lib64/libn3d3a.so:system/lib64/libn3d3a.so \
  vendor/ulefone/metal/proprietary/lib64/libnativecheck-jni.so:system/lib64/libnativecheck-jni.so \
  vendor/ulefone/metal/proprietary/lib64/libnetutils.so:system/lib64/libnetutils.so \
@@ -430,21 +573,32 @@ PRODUCT_COPY_FILES += \
  vendor/ulefone/metal/proprietary/lib64/libnvram_platform.so:system/lib64/libnvram_platform.so \
  vendor/ulefone/metal/proprietary/lib64/libnvram_sec.so:system/lib64/libnvram_sec.so \
  vendor/ulefone/metal/proprietary/lib64/libnvramagentclient.so:system/lib64/libnvramagentclient.so \
+ vendor/ulefone/metal/proprietary/lib64/libOpenCLIcd.so:system/lib64/libOpenCLIcd.so \
  vendor/ulefone/metal/proprietary/lib64/libperfservice.so:system/lib64/libperfservice.so \
  vendor/ulefone/metal/proprietary/lib64/libperfservicenative.so:system/lib64/libperfservicenative.so \
  vendor/ulefone/metal/proprietary/lib64/libpq_cust.so:system/lib64/libpq_cust.so \
  vendor/ulefone/metal/proprietary/lib64/libpq_prot.so:system/lib64/libpq_prot.so \
  vendor/ulefone/metal/proprietary/lib64/libpqservice.so:system/lib64/libpqservice.so \
+ vendor/ulefone/metal/proprietary/lib64/libRSDriver.so:system/lib64/libRSDriver.so \
+ vendor/ulefone/metal/proprietary/lib64/libsink.so:system/lib64/libsink.so \
+ vendor/ulefone/metal/proprietary/lib64/libsource.so:system/lib64/libsource.so \
  vendor/ulefone/metal/proprietary/lib64/libspeech_enh_lib.so:system/lib64/libspeech_enh_lib.so \
  vendor/ulefone/metal/proprietary/lib64/libstagefrighthw.so:system/lib64/libstagefrighthw.so \
  vendor/ulefone/metal/proprietary/lib64/libterservice.so:system/lib64/libterservice.so \
+ vendor/ulefone/metal/proprietary/lib64/libtimestretch.so:system/lib64/libtimestretch.so \
+ vendor/ulefone/metal/proprietary/lib64/libtnet-2.1.20.1.so:system/lib64/libtnet-2.1.20.1.so \
  vendor/ulefone/metal/proprietary/lib64/libtouchfilter.so:system/lib64/libtouchfilter.so \
  vendor/ulefone/metal/proprietary/lib64/libudf.so:system/lib64/libudf.so \
  vendor/ulefone/metal/proprietary/lib64/libui.so:system/lib64/libui.so \
+ vendor/ulefone/metal/proprietary/lib64/libui_ext.so:system/lib64/libui_ext.so \
+ vendor/ulefone/metal/proprietary/lib64/libvcodec_cap.so:system/lib64/libvcodec_cap.so \
+ vendor/ulefone/metal/proprietary/lib64/libvcodec_oal.so:system/lib64/libvcodec_oal.so \
  vendor/ulefone/metal/proprietary/lib64/libvcodec_utility.so:system/lib64/libvcodec_utility.so \
  vendor/ulefone/metal/proprietary/lib64/libvcodecdrv.so:system/lib64/libvcodecdrv.so \
+ vendor/ulefone/metal/proprietary/lib64/libvt_avsync.so:system/lib64/libvt_avsync.so \
  vendor/ulefone/metal/proprietary/lib64/libwapi.so:system/lib64/libwapi.so \
  vendor/ulefone/metal/proprietary/lib64/libwifitest.so:system/lib64/libwifitest.so \
+ vendor/ulefone/metal/proprietary/lib64/volte_imsm.so:system/lib64/volte_imsm.so \
  vendor/ulefone/metal/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
  vendor/ulefone/metal/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
  vendor/ulefone/metal/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
