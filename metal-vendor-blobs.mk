@@ -263,7 +263,7 @@ PRODUCT_COPY_FILES += \
  vendor/ulefone/metal/proprietary/lib/libhwm.so:system/lib/libhwm.so \
  vendor/ulefone/metal/proprietary/lib/libh264enc_sa.ca7.so:system/lib/libh264enc_sa.ca7.so \
  vendor/ulefone/metal/proprietary/lib/libh264enc_sb.ca7.so:system/lib/libh264enc_sb.ca7.so \
- vendor/ulefone/metal/proprietary/lib/libHEVdec_sa.ca7.android.so:system/lib/libHEVdec_sa.ca7.android.so \
+ vendor/ulefone/metal/proprietary/lib/libHEVCdec_sa.ca7.android.so:system/lib/libHEVCdec_sa.ca7.android.so \
  vendor/ulefone/metal/proprietary/lib/libimageio.so:system/lib/libimageio.so \
  vendor/ulefone/metal/proprietary/lib/libimageio_plat_drv.so:system/lib/libimageio_plat_drv.so \
  vendor/ulefone/metal/proprietary/lib/libimsma.so:system/lib/libimsma.so \
@@ -361,7 +361,7 @@ PRODUCT_COPY_FILES += \
  vendor/ulefone/metal/proprietary/lib/libpqservice.so:system/lib/libpqservice.so \
  vendor/ulefone/metal/proprietary/lib/libPQDCjni.so:system/lib/libPQDCjni.so \
  vendor/ulefone/metal/proprietary/lib/libPQjni.so:system/lib/libPQjni.so \
- vendor/ulefone/metal/proprietary/lib/libRSDriver.so:system/lib/libRSDriver.so \
+ vendor/ulefone/metal/proprietary/lib/libRSDriver_mtk.so:system/lib/libRSDriver_mtk.so \
  vendor/ulefone/metal/proprietary/lib/libsink.so:system/lib/libsink.so \
  vendor/ulefone/metal/proprietary/lib/libshowlogo.so:system/lib/libshowlogo.so \
  vendor/ulefone/metal/proprietary/lib/libSonyIMX230PdafLibrary.so:system/lib/libSonyIMX230PdafLibrary.so \
@@ -387,7 +387,7 @@ PRODUCT_COPY_FILES += \
  vendor/ulefone/metal/proprietary/lib/libvt_custom.so:system/libvt_custom.so \
  vendor/ulefone/metal/proprietary/lib/libvtmal.so:system/libvtmal.so \
  vendor/ulefone/metal/proprietary/lib/libvt_socketbind.so:system/libvt_socketbind.so \
- vendor/ulefone/metal/proprietary/lib/volt_imsm.so:system/volt_imsm.so \
+ vendor/ulefone/metal/proprietary/lib/volte_imsm.so:system/volte_imsm.so \
  vendor/ulefone/metal/proprietary/lib/libvp8dec_sa.ca7.so:system/lib/libvp8dec_sa.ca7.so \
  vendor/ulefone/metal/proprietary/lib/libvp8enc_sa.ca7.so:system/lib/libvp8enc_sa.ca7.so \
  vendor/ulefone/metal/proprietary/lib/libvp9dec_sa.ca7.so:system/lib/libvp9dec_sa.ca7.so \
@@ -579,7 +579,7 @@ PRODUCT_COPY_FILES += \
  vendor/ulefone/metal/proprietary/lib64/libpq_cust.so:system/lib64/libpq_cust.so \
  vendor/ulefone/metal/proprietary/lib64/libpq_prot.so:system/lib64/libpq_prot.so \
  vendor/ulefone/metal/proprietary/lib64/libpqservice.so:system/lib64/libpqservice.so \
- vendor/ulefone/metal/proprietary/lib64/libRSDriver.so:system/lib64/libRSDriver.so \
+ vendor/ulefone/metal/proprietary/lib64/libRSDriver_mtk.so:system/lib64/libRSDriver_mtk.so \
  vendor/ulefone/metal/proprietary/lib64/libsink.so:system/lib64/libsink.so \
  vendor/ulefone/metal/proprietary/lib64/libsource.so:system/lib64/libsource.so \
  vendor/ulefone/metal/proprietary/lib64/libspeech_enh_lib.so:system/lib64/libspeech_enh_lib.so \
