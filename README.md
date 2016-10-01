@@ -60,7 +60,6 @@ Front Camera | 2MP ---> Int. 5 (OV)
 
 ##Broken/Bugs
 * Videocamera ---> Crash after 2 sec.
-* Leds
 * Other other other other other
 
 ##to be checked
@@ -69,8 +68,6 @@ Front Camera | 2MP ---> Int. 5 (OV)
 * OTG
 
 ##To improve
-* LCD density ----> OK
-
 
 
 ### Thanks to:
